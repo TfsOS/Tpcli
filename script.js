@@ -5,7 +5,7 @@ let packages = {}; // This variable will hold your package list
 
 // Fetch the package list from GitHub
 async function fetchPackages() {
-    const response = await fetch('https://raw.githubusercontent.com/yourusername/TFS-repo/main/packages.json');
+    const response = await fetch('https://example');
     packages = await response.json();
 }
 
