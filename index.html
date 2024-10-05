@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFS CLI</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+        }
+        #terminal {
+            padding: 10px;
+            height: 80vh;
+            overflow-y: scroll;
+            border: 1px solid white;
+            white-space: pre; /* Preserve whitespace formatting */
+        }
+        input {
+            background-color: black;
+            color: white;
+            border: none;
+            outline: none;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="terminal"></div>
+    <input type="text" id="command" placeholder="Type a command..." autofocus />
+    <script src="script.js"></script>
+</body>
+</html>
