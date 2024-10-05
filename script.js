@@ -5,7 +5,7 @@ let packages = {}; // This variable will hold your package list
 
 // Fetch the package list from GitHub
 async function fetchPackages() {
-    const response = await fetch('https://example');
+    const response = await fetch('https://github.com/TfsOS/TFS-repo/packages.json');
     packages = await response.json();
 }
 
